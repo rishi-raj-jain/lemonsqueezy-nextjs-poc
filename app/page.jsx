@@ -1,3 +1,5 @@
+export const runtime = 'edge'
+
 import H1 from '@/components/ui/H1'
 import Product from '@/components/ui/Product'
 import { Separator } from '@/components/ui/separator'

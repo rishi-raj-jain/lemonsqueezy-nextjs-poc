@@ -1,3 +1,5 @@
+export const runtime = 'edge'
+
 import Link from 'next/link'
 import H1 from '@/components/ui/H1'
 import { Button } from '@/components/ui/button'
