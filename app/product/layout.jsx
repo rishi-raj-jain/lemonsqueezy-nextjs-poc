@@ -14,6 +14,11 @@ export default function ({ children }) {
         document.querySelectorAll('.lemonsqueezy-button').forEach((i) => {
           i.classList.remove('pointer-events-none')
         })
+        window.LemonSqueezy.Setup({
+          eventHandler: (event) => {
+            console.log(event)
+          },
+        })
       }, 1000)
     }
     script.src = 'https://assets.lemonsqueezy.com/lemon.js'
